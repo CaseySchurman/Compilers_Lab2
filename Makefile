@@ -24,4 +24,4 @@ langlex.c: lang.l
 	flex -o langlex.c lang.l
 
 lang: $(OBJS)
-	g++ $(OBJS) -o lan
+	g++ $(OBJS) -o lang
